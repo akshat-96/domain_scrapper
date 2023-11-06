@@ -1,0 +1,25 @@
+There are a few libraries that need to be installed:
+colorama
+requests
+argparse
+dnspython
+futures 
+
+
+To import this You need to have Python installed with path added to its .exe for accessing pip installer.
+
+
+
+A .bat file is included in the folder which imports this libraries for you "libraries_requirements.bat"
+It is safe to install and if you doubt you can view the script by opening it as text file.
+
+
+
+To execute this program successfully you also need to turn off App execution aliases from settings 
+
+Steps:
+1. Go to "Settings" (you can search for it in the Start menu).
+2. Click on "Apps."
+3. Scroll down and find "Apps & features."
+4. Under "App execution aliases," you should see Python. You can disable it there.
+

@@ -1,0 +1,9 @@
+python dome.py -m active -d domain -w wordlist.txt -i --top-web-ports -o  ---------|This two commands store output
+
+python dome.py -m passive -d domain --silent --output                     ---------|as -o and --output is used
+
+python dome.py -m active -d domain -w wordlist.txt --no-passive    ---------
+
+python dome.py -m active -d domain -w wordlist.txt --no-bruteforce     ---------All this does not store Output as -o or --output is not used
+
+python dome.py -m active -d domain -w wordlist.txt -p 22,80,3306  ---------
